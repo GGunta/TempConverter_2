@@ -61,7 +61,7 @@
                                     <segment title="Fahrenheit"/>
                                     <segment title="Kelvin"/>
                                 </segments>
-                                <color key="selectedSegmentTintColor" systemColor="systemRedColor"/>
+                                <color key="selectedSegmentTintColor" systemColor="systemPinkColor"/>
                                 <connections>
                                     <action selector="segmentValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="4BI-n7-duw"/>
                                 </connections>
@@ -73,7 +73,7 @@
                                 <imageReference key="maximumValueImage" image="sun.max" catalog="system" symbolScale="large"/>
                                 <color key="minimumTrackTintColor" systemColor="labelColor"/>
                                 <color key="maximumTrackTintColor" systemColor="labelColor"/>
-                                <color key="thumbTintColor" systemColor="systemRedColor"/>
+                                <color key="thumbTintColor" systemColor="systemPinkColor"/>
                                 <connections>
                                     <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="CXC-Uh-Qom"/>
                                 </connections>
@@ -288,8 +288,8 @@
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
